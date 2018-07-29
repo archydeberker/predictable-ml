@@ -1,6 +1,6 @@
 # predictable-ml
 
-This repo contains some experiments inspired by Baidu's paper ([Hestness et al., 2017]) (https://arxiv.org/abs/1712.00409) on predicting accuracy improvements of deep learning models with increasing dataset size.
+This repo contains some experiments inspired by Baidu's paper [Hestness et al., 2017](https://arxiv.org/abs/1712.00409) on predicting accuracy improvements of deep learning models with increasing dataset size.
 
 They found, somewhat surpisingly, that model performance grows with dataset size with a power-law relationship that 
 seems remarkably consistent for a given task. Most surprisingly, this is invariant to architecture, which seems to shift

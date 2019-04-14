@@ -1,7 +1,6 @@
 # predictable-ml
 
-This repo contains some experiments inspired by [Baidu's recent paper](https://arxiv.org/abs/1712.00409)on predicting scaling of ML algorithms with 
-increasin dataset size.
+This repo contains some experiments inspired by Baidu's paper [Hestness et al., 2017](https://arxiv.org/abs/1712.00409) on predicting accuracy improvements of deep learning models with increasing dataset size.
 
 They found, somewhat surpisingly, that model performance grows with dataset size with a power-law relationship that 
 seems remarkably consistent for a given task. Most surprisingly, this is invariant to architecture, which seems to shift
@@ -11,7 +10,7 @@ For discussion, see [the blogpost](http://research.baidu.com/deep-learning-scali
 
 ## To Do:
 
-[] Implement simple CIFAR-based experiment to replicate central finding 
+[x] Implement simple CIFAR-based experiment to replicate central finding 
 
 [] See whether a similar approach might be used to predict hyperparamter impact based upon small data sample
 
